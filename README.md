@@ -41,6 +41,16 @@ Smart_Cold_Press/
     └── DATA_FORMAT.md
 ```
 
+## Screenshots
+
+**Live dashboard** — current pH, UV intensity, UV-C status, storage day, and prototype batch status:
+
+![Live dashboard](screenshots/live_dashboard.png)
+
+**About page** — project scope and the monitoring-only disclaimer:
+
+![About page](screenshots/about_page.png)
+
 ## Quick start
 
 ### Windows
