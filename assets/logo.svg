@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#355E3B"/>
+    <stop offset="1" stop-color="#8FAE55"/>
+  </linearGradient>
+</defs>
+<rect width="500" height="500" rx="110" fill="#F6F8F2"/>
+<circle cx="250" cy="250" r="175" fill="url(#g)"/>
+<path d="M164 165c52 20 94 65 107 119 14 60-5 122-51 160 88-14 155-89 155-181 0-76-46-142-111-170-22 26-56 52-100 72z" fill="#F7B64A" opacity=".95"/>
+<path d="M145 310c48-8 88-35 114-78 17 28 26 61 26 95 0 20-3 40-9 59-53-4-100-32-131-76z" fill="#FDFBF4" opacity=".95"/>
+<circle cx="190" cy="185" r="18" fill="#FDFBF4"/>
+<text x="250" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#355E3B">SMART COLD PRESS</text>
+</svg>

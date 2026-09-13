@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<style>
+  .box{fill:#f8faf6;stroke:#55764f;stroke-width:3;rx:18}
+  .main{fill:#eef5e9;stroke:#355e3b;stroke-width:4;rx:24}
+  .txt{font: 700 28px Arial; fill:#20351f}
+  .sub{font: 20px Arial; fill:#4c5e49}
+  .line{stroke:#708d68;stroke-width:5;marker-end:url(#a)}
+</style>
+<defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto">
+<path d="M0,0 L0,8 L10,4 z" fill="#708d68"/></marker></defs>
+
+<rect x="420" y="220" width="360" height="190" class="main"/>
+<text x="600" y="285" text-anchor="middle" class="txt">Arduino UNO V3</text>
+<text x="600" y="325" text-anchor="middle" class="sub">Sensor acquisition</text>
+<text x="600" y="360" text-anchor="middle" class="sub">processing + serial data</text>
+
+<rect x="60" y="90" width="270" height="130" class="box"/>
+<text x="195" y="145" text-anchor="middle" class="txt">pH Sensor</text>
+<text x="195" y="180" text-anchor="middle" class="sub">A0</text>
+
+<rect x="60" y="430" width="270" height="130" class="box"/>
+<text x="195" y="485" text-anchor="middle" class="txt">UV Sensor</text>
+<text x="195" y="520" text-anchor="middle" class="sub">A1 • lamp intensity</text>
+
+<rect x="870" y="90" width="270" height="130" class="box"/>
+<text x="1005" y="145" text-anchor="middle" class="txt">UV-C Module</text>
+<text x="1005" y="180" text-anchor="middle" class="sub">treatment chamber</text>
+
+<rect x="870" y="430" width="270" height="130" class="box"/>
+<text x="1005" y="485" text-anchor="middle" class="txt">Streamlit</text>
+<text x="1005" y="520" text-anchor="middle" class="sub">dashboard + CSV logs</text>
+
+<rect x="445" y="500" width="310" height="105" class="box"/>
+<text x="600" y="548" text-anchor="middle" class="txt">Solar PV Model</text>
+<text x="600" y="580" text-anchor="middle" class="sub">~7 kWh/day • ~1.7 kW</text>
+
+<line x1="330" y1="155" x2="420" y2="270" class="line"/>
+<line x1="330" y1="495" x2="420" y2="365" class="line"/>
+<line x1="780" y1="275" x2="870" y2="170" class="line"/>
+<line x1="780" y1="355" x2="870" y2="495" class="line"/>
+<line x1="600" y1="410" x2="600" y2="500" class="line"/>
+</svg>
